@@ -1,0 +1,46 @@
+main {
+  background-color: #a5d8ff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-box {
+  position: relative;
+}
+
+.main-heading {
+  font-family: 'Poppins', serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 4.4rem 0;
+  margin-bottom: 4.4rem;
+  color: #495057;
+}
+
+.display {
+  padding: 1rem;
+  font-size: 2.4rem;
+  border-bottom: 4px solid #0ca678;
+  margin-bottom: 2rem;
+  font-family: 'Noto Sans Mono', serif;
+}
+
+.btn {
+  padding: 0.8rem 1.8rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #ff922b;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #f8f9fa;
+}
+
+.btn:active {
+  background-color: #fd7e14;
+}
