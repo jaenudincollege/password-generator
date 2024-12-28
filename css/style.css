@@ -28,10 +28,23 @@ main {
   font-family: 'Noto Sans Mono', serif;
 }
 
+.label-number {
+  font-size: 1.6rem;
+  margin-right: 40px;
+}
+
+#number {
+  width: 80px;
+  height: 40px;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+
 .btn {
   padding: 0.8rem 1.8rem;
   position: absolute;
   left: 50%;
+  bottom: -20%;
   transform: translate(-50%);
   background-color: #ff922b;
   border: none;
