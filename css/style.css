@@ -59,16 +59,30 @@ main {
 }
 
 /* qrcode */
+
+.qrcode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+  text-align: center;
+}
+
 .qr-heading {
   margin-top: 8.6rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-size: 1.4rem;
   font-family: 'Poppins', serif;
   font-weight: 500;
 }
 
-.qrcode {
-  /* width: 256px;
-  height: 256px;
-  background-color: black; */
+/* footer */
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  color: #868e96;
 }
