@@ -59,18 +59,22 @@ main {
 }
 
 /* qrcode */
+
+.qrcode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+  text-align: center;
+}
+
 .qr-heading {
   margin-top: 8.6rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-size: 1.4rem;
   font-family: 'Poppins', serif;
   font-weight: 500;
-}
-
-.qrcode {
-  /* width: 256px;
-  height: 256px;
-  background-color: black; */
 }
 
 /* footer */
